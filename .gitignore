@@ -1,0 +1,39 @@
+# Binaries
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+*.out
+coverage.html
+coverage.txt
+
+# Runtime files (never commit these)
+/run/
+*.sock
+*.db
+*.db-wal
+*.db-shm
+
+# Snapshot blobs
+snapshots/
+
+# Log files
+*.log
+*.log.*
+
+# Build cache
+.cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store

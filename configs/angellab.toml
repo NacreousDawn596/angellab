@@ -1,0 +1,41 @@
+# AngelLab configuration — /etc/angellab/angellab.toml
+
+[lab]
+socket       = "/run/angellab/lab.sock"
+registry     = "/var/lib/angellab/registry.db"
+log_path     = "/var/log/angellab/lab.log"
+log_level    = "info"
+angel_binary = "/usr/local/bin/angel"
+# metrics_addr enables the Prometheus endpoint. Scrape at http://<host>:9101/metrics
+metrics_addr = ":9101"
+# log_format = "json"   # uncomment to emit JSON lines for Loki/Splunk/Datadog
+
+[supervisor]
+heartbeat_interval = "10s"
+heartbeat_timeout  = "30s"
+max_restarts       = 5
+restart_backoff    = "5s"
+
+# Static angels spawned at startup.
+# Additional angels can be created at runtime with: lab angel create <type>
+
+[[angel]]
+type = "guardian"
+id   = "A-01"
+paths = [
+  "/etc/passwd",
+  "/etc/shadow",
+  "/etc/sudoers",
+  "/etc/hosts",
+  "/etc/ssh/sshd_config",
+]
+snapshot_dir = "/var/lib/angellab/snapshots"
+
+[[angel]]
+type = "sentinel"
+id   = "A-02"
+baseline_duration = "60s"
+
+[[angel]]
+type = "process"
+id   = "A-03"
