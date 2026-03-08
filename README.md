@@ -298,7 +298,7 @@ Flags:
 
 Check system prerequisites and print a `PASS` / `WARN` / `FAIL` report.
 
-```
+``` 
 AngelLab system check 
   Check                               Result  Detail
   ──────────────────────────────────────────────────
