@@ -1,14 +1,14 @@
 # AngelLab
 
-![GitHub stars](https://img.shields.io/github/stars/NacreousDawn596/angellab?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/NacreousDawn596/angellab?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/NacreousDawn596/angellab?style=for-the-badge)
-![License](https://img.shields.io/github/license/NacreousDawn596/angellab?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/NacreousDawn596/angellab)
+![GitHub forks](https://img.shields.io/github/forks/NacreousDawn596/angellab)
+![GitHub issues](https://img.shields.io/github/issues/NacreousDawn596/angellab)
+![License](https://img.shields.io/github/license/NacreousDawn596/angellab)
 
-![Go Version](https://img.shields.io/github/go-mod/go-version/NacreousDawn596/angellab?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-linux-blue?style=for-the-badge)
-![Nix Flake](https://img.shields.io/badge/nix-flake-5277C3?style=for-the-badge)
-![Repo size](https://img.shields.io/github/repo-size/NacreousDawn596/angellab?style=for-the-badge)
+![Go Version](https://img.shields.io/github/go-mod/go-version/NacreousDawn596/angellab)
+![Platform](https://img.shields.io/badge/platform-linux-blue)
+![Nix Flake](https://img.shields.io/badge/nix-flake-5277C3)
+![Repo size](https://img.shields.io/github/directory-file-count/NacreousDawn596/angellab)
 
 
 **Autonomous system guardians for Linux.**
