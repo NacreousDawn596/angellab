@@ -1,14 +1,14 @@
 # AngelLab
 
-![GitHub stars](https://img.shields.io/github/stars/nacreousdawn596/angellab?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/nacreousdawn596/angellab?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/nacreousdawn596/angellab?style=for-the-badge)
-![License](https://img.shields.io/github/license/nacreousdawn596/angellab?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/NacreousDawn596/angellab?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/NacreousDawn596/angellab?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/NacreousDawn596/angellab?style=for-the-badge)
+![License](https://img.shields.io/github/license/NacreousDawn596/angellab?style=for-the-badge)
 
-![Go Version](https://img.shields.io/github/go-mod/go-version/nacreousdawn596/angellab?style=for-the-badge)
+![Go Version](https://img.shields.io/github/go-mod/go-version/NacreousDawn596/angellab?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-linux-blue?style=for-the-badge)
 ![Nix Flake](https://img.shields.io/badge/nix-flake-5277C3?style=for-the-badge)
-![Repo size](https://img.shields.io/github/repo-size/nacreousdawn596/angellab?style=for-the-badge)
+![Repo size](https://img.shields.io/github/repo-size/NacreousDawn596/angellab?style=for-the-badge)
 
 
 **Autonomous system guardians for Linux.**
@@ -563,7 +563,7 @@ See [`docs/failure-semantics.md`](docs/failure-semantics.md) for the complete fa
 apt-get install -y golang gcc libsqlite3-dev
 
 # Clone
-git clone https://github.com/nacreousdawn596/angellab
+git clone https://github.com/NacreousDawn596/angellab
 cd angellab
 
 # Initialize Go modules
@@ -702,7 +702,7 @@ Add AngelLab to your system flake inputs:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    angellab.url = "github:nacreousdawn596/angellab";
+    angellab.url = "github:NacreousDawn596/angellab";
   };
 
   outputs = { self, nixpkgs, angellab, ... }:
@@ -794,15 +794,15 @@ AngelLab can be run directly using Nix without installing it.
 Run the CLI:
 
 ```bash
-nix run github:nacreousdawn596/angellab
+nix run github:NacreousDawn596/angellab
 ```
 
 Run specific binaries:
 
 ```bash
-nix run github:nacreousdawn596/angellab#lab
-nix run github:nacreousdawn596/angellab#labd
-nix run github:nacreousdawn596/angellab#angel
+nix run github:NacreousDawn596/angellab#lab
+nix run github:NacreousDawn596/angellab#labd
+nix run github:NacreousDawn596/angellab#angel
 ```
 
 Enter the development shell:
